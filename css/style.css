@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url('../img/vitlkBackground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.div1{
+    width: 100%;
+    background-color: aliceblue;
+}
+.div1 .table1{
+    width: 100%;
+
+}
+.div1 .table1 .td1{
+    width: 25%;
+    padding: 10px;
+}
+.div1 .table1 .td2{
+    width: 25%;
+    padding: 10px;
+    margin-right: 50px;
+}
