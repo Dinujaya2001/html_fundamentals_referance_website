@@ -1,27 +1,55 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box; 
 }
-body{
+
+body {
     background-image: url('../img/vitlkBackground.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-.div1{
+
+
+.top-nav {
     width: 100%;
     background-color: aliceblue;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px; 
 }
-.div1 .table1{
-    width: 100%;
 
+
+.left-side {
+    display: flex;
+    gap: 20px; 
 }
-.div1 .table1 .td1{
-    width: 25%;
-    padding: 10px;
+
+.left-side h3 {
+    font-size: 18px;
+    font-weight: normal;
 }
-.div1 .table1 .td2{
-    width: 25%;
-    padding: 10px;
-    margin-right: 50px;
+
+
+.right-side {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+}
+
+.lang-text {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#language {
+    width: 25px;
+    height: 25px;
+}
+
+#share {
+    width: 25px;
+    height: 25px;
 }
