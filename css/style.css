@@ -85,3 +85,7 @@ body {
     cursor: pointer;
     
 }
+.position{
+    width: 100%;
+    position: fixed;
+}
