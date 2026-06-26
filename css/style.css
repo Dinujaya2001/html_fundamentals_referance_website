@@ -226,3 +226,25 @@ a:hover {
     color: #fff;
     background: #00c8ff;
 }
+.reviews{
+    padding:70px;
+    text-align:center;
+}
+.rating i{
+    color: gold;
+    font-size: 14px;
+}
+.review-box{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.review{
+    width:300px;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.2);
+}
