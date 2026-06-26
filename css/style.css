@@ -93,6 +93,7 @@ body {
 .position {
     position: sticky;
     top:0;
+    z-index: 1000;
 }
 
 .center-side {
@@ -247,4 +248,27 @@ a:hover {
     padding:20px;
     border-radius:10px;
     box-shadow:0 0 10px rgba(0,0,0,.2);
+}
+.color{
+    margin-bottom: 25px;
+    color:#04456f;
+}
+.contact-section{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:50px;
+    padding:70px;
+}
+
+.map{
+    width:600px;
+}
+
+.contact{
+    width:300px;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 15px rgba(0,0,0,.2);
 }
