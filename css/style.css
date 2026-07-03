@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+.headerimg{
+    width: 500px;
+    height: 500px;
+}
 
 body {
     background-image: url('../img/vitlkBackground.jpg');
